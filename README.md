@@ -22,32 +22,31 @@ Github search react application using
 The project is organized as follows:
 ```
 src/ 
-│ ├── components/ # Reusable UI components 
-│ ├── DataViewer/ 
-│ ├── DropDown/ 
-│ ├── Header/ 
-│ ├── InputField/ 
-│ ├── Pagination/ 
-│ ├── Typography/ 
-│ └── index.ts # Exporting components 
-│ ├── pages/ # Application pages 
-│ ├── _404/ 
-│ ├── GithubSearch/ 
-│ └── index.ts # Page exports 
-│ ├── redux/ # Redux setup 
-│ ├── reducers/ # Reducers for state management 
-│ └── store.ts # Redux store configuration 
-│ ├── test-utils/ # Utility files for testing 
-│ └── index.tsx # Test utility setup 
-│ ├── types/ # TypeScript types 
-│ ├── RepoInfo.ts # Type for repository information 
-│ ├── SearchOption.ts # Type for search options 
-│ ├── UserInfo.ts # Type for user information 
-│ └── index.ts # Exporting types
+│ ├── components/     # Reusable UI components 
+│ │   ├── DataViewer/ # Showing the fetched data.
+│ │   ├── DropDown/   # User select the search type.
+│ │   ├── Header/     # Header of the project.
+│ │   ├── InputField/ # Keyword input field.
+│ │   ├── Pagination/ 
+│ │   ├── Typography/ # Customized paragraph
+│ │   └── index.ts    # Exporting components 
+│ ├── pages/          # Application pages 
+│ │   ├── _404/       # 404 Error page
+│ │   ├── GithubSearch/
+│ │   └── index.ts    # Page exports 
+│ ├── redux/          # Redux setup 
+│ │   ├── reducers/   # Reducers for state management 
+│ │   └── store.ts    # Redux store configuration 
+│ ├── test-utils/     # Utility files for testing 
+│ │   └── index.tsx   # Test utility setup I didn't implement fe testing, which is not mentioned in requirements
+│ ├── types/          # TypeScript types 
+│ │   ├── RepoInfo.ts # Type for repository information 
+│ │   ├── SearchOption.ts # Type for search options 
+│ │   ├── UserInfo.ts # Type for user information 
+│ │   └── index.ts    # Exporting types
 ```
 
 ## Components
-
 - **DataViewer**: Displays data in a structured format.
 - **DropDown**: Reusable dropdown component.
 - **Header**: Header component for the app.
@@ -56,29 +55,24 @@ src/
 - **Typography**: Provides reusable typography elements.
 
 ## Pages
-
 - **_404**: Handles rendering for 404 errors.
 - **GithubSearch**: Page that allows searching GitHub repositories.
 
 ## Redux
-
 - **Reducers**: Contains all the reducers for managing the app state.
 - **Store**: Configures the Redux store to manage state globally.
 
 ## Test Utils
-
-This folder contains utilities and helper functions for testing components and pages using Jest and React Testing Library.
+This folder contains utilities and helper functions for testing components and pages using Jest and React Testing Library. But I made this folder for further upgrade of this frontend.
+For now, I didn't implement frontend testing, only in backend.
 
 ## Types
-
 Contains TypeScript types used throughout the project, including:
-
 - **RepoInfo.ts**: Defines the structure for repository-related data.
 - **SearchOption.ts**: Defines types for search options.
 - **UserInfo.ts**: Defines types for user-related information.
 
 ## How to Run
-
 1. Clone the repository.
 2. Install dependencies using `npm install` or `yarn`.
 3. Start the development server with `npm start` or `yarn start`.
