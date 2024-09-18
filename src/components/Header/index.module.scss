@@ -1,0 +1,24 @@
+$mobile-breakpoint: 768px;
+
+.header {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    position: sticky;
+    gap: 10px;
+    @media (max-width:$mobile-breakpoint) {
+        padding-left: 10%;
+    }
+    &_icon {
+        height: 50px;
+        width: auto;
+    }
+    &_title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+}

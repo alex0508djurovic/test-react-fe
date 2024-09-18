@@ -1,0 +1,11 @@
+$mobile-breakpoint: 768px;
+
+.App {
+    width: 85%;
+    height: 100%;
+    padding-left: 10%;
+    @media (max-width:$mobile-breakpoint) {
+        padding-left: 25px;
+    }
+}
+

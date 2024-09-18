@@ -1,0 +1,20 @@
+$mobile-breakpoint: 768px;
+
+.input {
+    height: 90%;
+    width: 40%;
+    border-radius: 2px;
+    border: 1px solid gray;
+    background: none;
+    padding-left: 8px;
+    min-width: 240px;
+    &::placeholder {
+        color: grey;
+    }
+
+    &:focus {
+        border-color: grey;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+        outline: none;
+    }
+}
