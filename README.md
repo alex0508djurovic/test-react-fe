@@ -21,7 +21,29 @@ Github search react application using
 
 The project is organized as follows:
 ```
-src/ │ ├── components/ # Reusable UI components │ ├── DataViewer/ │ ├── DropDown/ │ ├── Header/ │ ├── InputField/ │ ├── Pagination/ │ ├── Typography/ │ └── index.ts # Exporting components │ ├── pages/ # Application pages │ ├── _404/ │ ├── GithubSearch/ │ └── index.ts # Page exports │ ├── redux/ # Redux setup │ ├── reducers/ # Reducers for state management │ └── store.ts # Redux store configuration │ ├── test-utils/ # Utility files for testing │ └── index.tsx # Test utility setup │ ├── types/ # TypeScript types │ ├── RepoInfo.ts # Type for repository information │ ├── SearchOption.ts # Type for search options │ ├── UserInfo.ts # Type for user information │ └── index.ts # Exporting types
+src/ 
+│ ├── components/ # Reusable UI components 
+│ ├── DataViewer/ 
+│ ├── DropDown/ 
+│ ├── Header/ 
+│ ├── InputField/ 
+│ ├── Pagination/ 
+│ ├── Typography/ 
+│ └── index.ts # Exporting components 
+│ ├── pages/ # Application pages 
+│ ├── _404/ 
+│ ├── GithubSearch/ 
+│ └── index.ts # Page exports 
+│ ├── redux/ # Redux setup 
+│ ├── reducers/ # Reducers for state management 
+│ └── store.ts # Redux store configuration 
+│ ├── test-utils/ # Utility files for testing 
+│ └── index.tsx # Test utility setup 
+│ ├── types/ # TypeScript types 
+│ ├── RepoInfo.ts # Type for repository information 
+│ ├── SearchOption.ts # Type for search options 
+│ ├── UserInfo.ts # Type for user information 
+│ └── index.ts # Exporting types
 ```
 
 ## Components
